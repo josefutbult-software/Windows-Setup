@@ -283,6 +283,14 @@ In the SSH session, try accessing WSL
 & 'C:\Program Files\WSL\wsl.exe'
 ```
 
+For some reason, you can only run certain instances of the `wsl.exe` executable over SSH. For this reason, you need to make sure that the `wsl`
+command in Powershell runs the one in `C:\Program Files\WSL`. Therefore, add that path to the environment PATH and move it all the way to the 
+top of the list. This path will then be prioritized.
+
+When you are in the environment editor for PATH, make sure to also add `C:\cygwin64`, to make the Cygwin bat script accessible from the terminal.
+
+After this you should be able to log in over SSH and run just `wsl` to start WSL.
+
 ## Power Toys
 
 Install [Microsoft Power Toys](https://apps.microsoft.com/store/detail/XP89DCGQ3K6VLD?ocid=pdpshare)
