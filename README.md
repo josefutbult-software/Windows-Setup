@@ -17,7 +17,7 @@ TODO
 Open Powershell and run
 
 ```bash
-wsl --insall
+wsl --install
 ```
 
 Then reboot your device. You will then get a command prompt where you can setup your Linux account.
