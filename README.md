@@ -96,6 +96,14 @@ In there, find the key _actions_, and paste the following as an extra action.
 }
 ```
 
+### Symlink Downloads folder
+
+In a Ubuntu Terminal, run the following. Make sure to change your username.
+
+```bash
+ln -s /mnt/c/Users/<Your Username>/Downloads ~/Downloads
+```
+
 ### Install and configure NeoVim
 
 Follow [Neovim Setup](https://github.com/JosefUtbult/neovim-config)
