@@ -92,7 +92,7 @@ In there, find the key _actions_, and paste the following as an extra action.
 
 ### Install and configure NeoVim
 
-Follow [Neovim Setup](git@github.com:JosefUtbult/neovim-config.git)
+Follow [Neovim Setup](https://github.com/JosefUtbult/neovim-config)
 
 ### Setup ZSH
 
@@ -132,6 +132,8 @@ Find `OpenSSH Server` in the list.
 Begin with setting the startup type to `Automatic`
 
 Click on `Start`
+
+Do the same for `OpenSSH Autentication Agent`
 
 Now you want to set a default SSH shell. If you indent to use Cygwin and WSL,
 you will need to set this to Powershell, as network drives doesn't work when
