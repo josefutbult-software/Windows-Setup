@@ -10,7 +10,9 @@ Install [Git](https://git-scm.com/download/win). Make sure to install Windows-st
 
 Clone this repository
 
-TODO
+## Fonts
+
+Install the _Lilex_ nerd font by extracting it, selecting all `.ttf` files, right cling and select `Install`
 
 ## Install Linux subsystem
 
@@ -33,7 +35,7 @@ Go to the Ubuntu/Linux profile.
 
 Go to _Appearance_ and select the _One Half Dark_ colorscheme.
 
-Select the Font Face _MesloLGS NF_
+Select the Font Face _Lilex Nerd Font Mono_
 
 Set background transparency to 95\%
 
@@ -90,29 +92,7 @@ In there, find the key _actions_, and paste the following as an extra action.
 
 ### Install and configure NeoVim
 
-Use NeoVim instead of Vim, as it seems a bit more stable
-
-Install NeoVim
-```bash
-sudo apt update
-sudo apt upgrade
-sudo apt install neovim
-```
-
-Add config for NeoVim to use Vim resources
-```bash
-mkdir -p ~/.config/nvim
-vim ~/.config/nvim/init.vim
-```
-
-Add the following
-```bash
-set runtimepath^=~/.vim runtimepath+=~/.vim/after
-let &packpath=&runtimepath
-source ~/.vimrc
-```
-
-Now, copy your Vim config files to your Linux home directory
+Follow [Neovim Setup](git@github.com:JosefUtbult/neovim-config.git)
 
 ### Setup ZSH
 
