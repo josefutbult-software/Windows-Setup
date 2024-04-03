@@ -10,6 +10,12 @@ Install [Git](https://git-scm.com/download/win). Make sure to install Windows-st
 
 Clone this repository
 
+## Keyboard layout
+
+Run `setup.exe` in the `Keyboard Layout/Installer` folder.
+
+Go to `Settings > Time & language > Language & region` and change the keyboard layout to `US with Swedish keys`
+
 ## Fonts
 
 Install the _Lilex_ nerd font by extracting it, selecting all `.ttf` files, right cling and select `Install`
