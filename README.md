@@ -29,11 +29,7 @@ Select _Ubuntu_ as default profile (The one with the Linux symbol and not the Ub
 
 Select _Windows Terminal_ as Default terminal application.
 
-Go to the Ubuntu/Linux profile. 
-
-Select `/mnt/c/Users/<Windows username>` as your starting directory.
-
-Turn on _Run this profile as Administrator_
+Go to the Ubuntu/Linux profile.
 
 Go to _Appearance_ and select the _One Half Dark_ colorscheme.
 
