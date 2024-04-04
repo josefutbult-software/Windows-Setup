@@ -12,13 +12,17 @@ Clone this repository
 
 ## Keyboard layout
 
-Run `setup.exe` in the `Keyboard Layout/Installer` folder.
+Run `setup.exe` in the `Keyboard Layout.zip`.
 
 Go to `Settings > Time & language > Language & region` and change the keyboard layout to `US with Swedish keys`
 
 ## Fonts
 
 Install the _Lilex_ nerd font by extracting it, selecting all `.ttf` files, right cling and select `Install`
+
+## Background
+
+You can use the background in the `Backgrounds` folder.
 
 ## Install Linux subsystem
 
